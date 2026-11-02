@@ -1,0 +1,2 @@
+/* Shared, deterministic binary partition used by the UI and exhaustive tests. */
+(function(root){'use strict';const engine={group(pool){return pool.slice(0,Math.ceil(pool.length/2));},answer(pool,yes){const ids=new Set(this.group(pool).map(c=>c.id));return pool.filter(c=>ids.has(c.id)===yes);}};if(typeof module!=='undefined')module.exports=engine;else root.GuessEngine=engine;})(typeof window==='undefined'?this:window);

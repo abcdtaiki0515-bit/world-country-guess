@@ -1,0 +1,11 @@
+{
+  "countries": 196,
+  "uniqueLeaves": 196,
+  "minAnswers": 7,
+  "maxAnswers": 8,
+  "polygonCountries": 195,
+  "markerOnly": [
+    "ツバル"
+  ],
+  "affiliateCards": 2
+}
